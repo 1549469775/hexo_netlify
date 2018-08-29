@@ -69,13 +69,13 @@ state:
 search:
   placeholder: 搜索...
 cheers:
-  um: 嗯..
-  ok: 还行
-  nice: 不错
-  good: 很好
-  great: 非常好
-  excellent: 太棒了
-keep_on: 继续努力。
+  um: 垃圾
+  ok: 勉强
+  nice: 还行
+  good: 不错
+  great: 厉害
+  excellent: 真神
+keep_on: 继续努力!!!
 symbol:
   comma: "，"
   period: "。"

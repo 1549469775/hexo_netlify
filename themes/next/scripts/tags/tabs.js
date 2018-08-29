@@ -33,7 +33,7 @@ function postTabs(args, content) {
     var tabIcon       = tabParameters[1] || '';
     var tabHref       = '';
 
-    postContent = hexo.render.renderSync({text: postContent, engine: 'markdown'}).trim();
+    postContent = hexo.render.renderSync({text: postContent, engine: 'markdown'});
 
     tabId += 1;
     tabHref = (tabName + ' ' + tabId).toLowerCase().split(' ').join('-');
@@ -55,5 +55,3 @@ function postTabs(args, content) {
 }
 
 hexo.extend.tag.register('tabs', postTabs, {ends: true});
-hexo.extend.tag.register('subtabs', postTabs, {ends: true});
-hexo.extend.tag.register('subsubtabs', postTabs, {ends: true});

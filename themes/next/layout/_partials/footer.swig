@@ -1,6 +1,6 @@
 <div class="copyright">{#
 #}{% set current = date(Date.now(), "YYYY") %}{#
-#}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} – {% endif %}{#
+#}&copy; {% if theme.footer.since and theme.footer.since != current %}{{ theme.footer.since }} &mdash; {% endif %}{#
 #}<span itemprop="copyrightYear">{{ current }}</span>
   <span class="with-love" id="animate">
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
@@ -50,7 +50,7 @@
 
 {% if theme.footer.theme.enable %}
   <div class="theme-info">{#
-  #}{{ __('footer.theme') }} – {#
+  #}{{ __('footer.theme') }} &mdash; {#
   #}<a class="theme-link" target="_blank"{{ nofollow }} href="https://theme-next.org">{#
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
@@ -62,3 +62,8 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+</div>

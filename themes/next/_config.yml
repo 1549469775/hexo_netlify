@@ -55,7 +55,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -100,7 +100,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -117,13 +117,23 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
+  # 首页
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  # 归档
   archives: /archives/ || archive
+  # 分类
+  categories: /categories/ || th
+  # 标签
+  tags: /tags/ || tags
+  # 关于
+  about: /about/ || user
+  # 日程表
   #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  # 站点地图
+  sitemap: /sitemap.xml || sitemap
+  # 百度站点地图
+  #sitemap: /baidusitemap.xml || baidusitemap
+  # 公益404
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
@@ -136,10 +146,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-# scheme: Mist
+# scheme: Muse
+scheme: Mist
 # scheme: Pisces
-scheme: Gemini
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -154,9 +164,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: https://github.com/1549469775 || github
+  #E-Mail: 1549469775@qq.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -494,16 +504,29 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  enable: true 
+  # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: SHKlfabtBk0G5s81GDlGrARE-gzGzoHsz
+  appkey: IAErCIs5wHwsnWwm2fdhQSnt
+  notify: true 
+  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: true 
+  # Verification code
+  placeholder: Just go go 
+  # comment box placeholder
+  avatar: mm 
+  # gravatar style
+  guest_info: nick,mail,link 
+  # custom comment header
+  pageSize: 10 
+  # pagination size
+  visitor: true 
+  # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+
+
+# Support for youyan comments system.
+# You can get your uid from http://www.uyan.cc
+#youyan_uid: your uid
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -532,7 +555,13 @@ gitment:
 #baidushare:
 ##  type: button
 
-# addthis Share, see: https://www.addthis.com/
+# Share
+# This plugin is more useful in China, make sure you known how to use it.
+# And you can find the use guide at official webiste: http://www.jiathis.com/.
+# Warning: JiaThis does not support https.
+#jiathis:
+  ##uid: Get this uid from http://www.jiathis.com/
+
 #add_this_id:
 
 # NeedMoreShare2
@@ -577,10 +606,6 @@ needmoreshare2:
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
 #yandex_site_verification:
-
-# Baidu Webmaster tools verification setting
-# See: https://ziyuan.baidu.com/site/
-#baidu_site_verification:
 
 # CNZZ count
 #cnzz_siteid:
@@ -666,9 +691,9 @@ busuanzi_count:
 # Tencent MTA ID
 # tencent_mta:
 
-
+baidu_site_verification: jsA6mObqGa
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -702,7 +727,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -832,7 +857,7 @@ canvas_nest: false
 # three_waves
 three_waves: false
 # canvas_lines
-canvas_lines: false
+canvas_lines: true
 # canvas_sphere
 canvas_sphere: false
 
@@ -905,7 +930,12 @@ vendors:
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
-  canvas_nest:
+  # 颜色：默认是（0，0，0），格式是（R,G,B）
+  # 透明度：（0-1），默认0.5
+  # 线段的数量：默认0.5
+  # Z轴：默认-1
+  # <script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+  canvas_nest: https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js
 
   # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-three
@@ -913,10 +943,10 @@ vendors:
   # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three-waves.min.js
   # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_lines.min.js
   # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_sphere.min.js
-  three:
-  three_waves:
-  canvas_lines:
-  canvas_sphere:
+  three: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three.min.js
+  three_waves: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three-waves.min.js
+  canvas_lines: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_lines.min.js
+  canvas_sphere: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_sphere.min.js
 
   # Internal version: 1.0.0
   # https://github.com/zproo/canvas-ribbon
@@ -949,6 +979,10 @@ vendors:
   # valine comment
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
   valine:
+
+ # Online contact 
+daovoice: true
+daovoice_app_id: 3732e4a1
 
 
 # Assets
