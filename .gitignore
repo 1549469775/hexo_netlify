@@ -3,5 +3,11 @@ Thumbs.db
 db.json
 *.log
 node_modules/
+public/
+!public/atom.xml
+!public/baidusitemap.xml
+!public/CNAME
+!public/search.xml
+!public/sitemap.xml
 .deploy*/
 /A/
