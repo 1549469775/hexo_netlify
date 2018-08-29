@@ -1,3 +1,0 @@
-git add .
-git commit -m "增加新的文章"
-git push origin master
