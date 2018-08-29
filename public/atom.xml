@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Heaven</title>
+  
+  <subtitle>CoolMan</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.xieyaxin.space/"/>
+  <updated>2018-08-22T15:11:56.922Z</updated>
+  <id>http://www.xieyaxin.space/</id>
+  
+  <author>
+    <name>谢亚昕</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>变身成人</title>
+    <link href="http://www.xieyaxin.space/2018/08/22/%E5%B9%BB%E6%83%B3%E5%B0%8F%E8%AF%B4/%E5%8F%98%E8%BA%AB%E6%88%90%E4%BA%BA/"/>
+    <id>http://www.xieyaxin.space/2018/08/22/幻想小说/变身成人/</id>
+    <published>2018-08-22T03:22:07.000Z</published>
+    <updated>2018-08-22T15:11:56.922Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;我是个大学生，当过男生，现在是个女生，然后我是个百合，妹子都到我怀里来吧。&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.网络基础知识</title>
+    <link href="http://www.xieyaxin.space/2018/08/21/%E4%B9%A6%E7%B1%8D/%E5%9B%BE%E8%A7%A3TCPIP/1-%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://www.xieyaxin.space/2018/08/21/书籍/图解TCPIP/1-网络基础知识/</id>
+    <published>2018-08-21T11:00:21.000Z</published>
+    <updated>2018-08-21T11:18:23.402Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;就是买了书，不看就浪费了。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="书籍" scheme="http://www.xieyaxin.space/categories/%E4%B9%A6%E7%B1%8D/"/>
+    
+    
+      <category term="书籍" scheme="http://www.xieyaxin.space/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>灵猫</title>
+    <link href="http://www.xieyaxin.space/2018/08/17/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/%E7%81%B5%E7%8C%AB/"/>
+    <id>http://www.xieyaxin.space/2018/08/17/玄幻小说/灵猫/</id>
+    <published>2018-08-17T02:52:52.000Z</published>
+    <updated>2018-08-22T03:05:23.270Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;主角平常的一天，意外捡到一张灵兽卡，卡牌中是一只可爱的猫咪，但因为这只猫咪，却给主角带来了不一样的转机&lt;br&gt;
+    
+    </summary>
+    
+      <category term="小说" scheme="http://www.xieyaxin.space/categories/%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+      <category term="小说" scheme="http://www.xieyaxin.space/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TS入门级课程（1）</title>
+    <link href="http://www.xieyaxin.space/2018/08/15/Tyscript/TS%E5%85%A5%E9%97%A8%E7%BA%A7%E8%AF%BE%E7%A8%8B%EF%BC%881%EF%BC%89/"/>
+    <id>http://www.xieyaxin.space/2018/08/15/Tyscript/TS入门级课程（1）/</id>
+    <published>2018-08-15T07:42:20.000Z</published>
+    <updated>2018-08-15T07:52:17.719Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;现如今的javascript越来越受欢迎，但是其动态语言的特性使得开发大型项目简直是噩梦，因此在此基础上，微软公司开发了一款&lt;br&gt;新型的语言，它是基于JS的语言，完全兼容JS，同时兼具强类型语言的特性，简直良心。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="typescript" scheme="http://www.xieyaxin.space/categories/typescript/"/>
+    
+    
+      <category term="typescript" scheme="http://www.xieyaxin.space/tags/typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏畅想</title>
+    <link href="http://www.xieyaxin.space/2018/08/06/Egret/%E6%B8%B8%E6%88%8F%E7%95%85%E6%83%B3/"/>
+    <id>http://www.xieyaxin.space/2018/08/06/Egret/游戏畅想/</id>
+    <published>2018-08-06T02:04:36.000Z</published>
+    <updated>2018-08-07T03:11:50.772Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这里是游戏畅想阶段,用于存放我无处安放的思想。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1
+        
+      
+    
+    </summary>
+    
+      <category term="Egert" scheme="http://www.xieyaxin.space/categories/Egert/"/>
+    
+    
+      <category term="Egert" scheme="http://www.xieyaxin.space/tags/Egert/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页基础--预备知识</title>
+    <link href="http://www.xieyaxin.space/2018/07/31/%E7%88%AC%E8%99%AB/%E7%BD%91%E9%A1%B5%E5%9F%BA%E7%A1%80--%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
+    <id>http://www.xieyaxin.space/2018/07/31/爬虫/网页基础--预备知识/</id>
+    <published>2018-07-30T16:03:26.000Z</published>
+    <updated>2018-07-31T16:07:33.716Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="爬虫" scheme="http://www.xieyaxin.space/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="爬虫" scheme="http://www.xieyaxin.space/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爬虫基础--预备知识</title>
+    <link href="http://www.xieyaxin.space/2018/07/30/%E7%88%AC%E8%99%AB/%E7%88%AC%E8%99%AB%E5%9F%BA%E7%A1%80--%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
+    <id>http://www.xieyaxin.space/2018/07/30/爬虫/爬虫基础--预备知识/</id>
+    <published>2018-07-30T15:53:12.000Z</published>
+    <updated>2018-07-31T16:06:49.589Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这是我们学习爬虫前的一个准备工作，让我们开始旅程之前为自己加波油，打波气。爬虫其实不难，我之前也有过爬虫的经验，但是一直缺少完整系统的学习，因此让我的爬虫方面的是知识十分的缺乏，爬虫原理是要分析的第一步。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="爬虫" scheme="http://www.xieyaxin.space/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="爬虫" scheme="http://www.xieyaxin.space/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装Manjaro系统</title>
+    <link href="http://www.xieyaxin.space/2018/07/29/Linux/%E5%AE%89%E8%A3%85Manjaro%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://www.xieyaxin.space/2018/07/29/Linux/安装Manjaro系统/</id>
+    <published>2018-07-28T16:50:59.664Z</published>
+    <updated>2018-07-31T16:08:09.654Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;最近，接触到了一个新的Linux系统，这是基于ArchLinux的系统，听说有很好的软件支持和十分方面的使用方式，那么接下来回顾一下我的安装历程。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://www.xieyaxin.space/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://www.xieyaxin.space/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python方面的工作</title>
+    <link href="http://www.xieyaxin.space/2018/07/24/Python/Python%E6%96%B9%E9%9D%A2%E7%9A%84%E5%B7%A5%E4%BD%9C/"/>
+    <id>http://www.xieyaxin.space/2018/07/24/Python/Python方面的工作/</id>
+    <published>2018-07-24T09:36:28.167Z</published>
+    <updated>2018-07-31T16:08:06.371Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;不知不觉，已经毕业了，然而我觉得现在的自己还是什么都不会。我也不解释，这是我一手造成的后果。而今，我必须痛定思痛，改掉一身的臭毛病，尤其是懒惰的习惯。现在必须确定一个目标，那么分析一下Python的工作方向。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>爬虫开发--开发环境配置</title>
+    <link href="http://www.xieyaxin.space/2018/07/21/%E7%88%AC%E8%99%AB/%E7%88%AC%E8%99%AB%E5%BC%80%E5%8F%91--%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.xieyaxin.space/2018/07/21/爬虫/爬虫开发--开发环境配置/</id>
+    <published>2018-07-21T09:42:49.000Z</published>
+    <updated>2018-07-31T16:06:49.673Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前沿&quot;&gt;&lt;a href=&quot;#前沿&quot; class=&quot;headerlink&quot; title=&quot;前沿&quot;&gt;&lt;/a&gt;前沿&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;本作者买了一本书，叫做《Python3网络爬虫开发实战》，用来爬取网络上各种各样的信息。当今世界什么最值钱？数据最值钱了。本作者希望直到在网络上浏览着的人的各种行为，以分析世界上人们各个年龄兴趣的走向。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="爬虫" scheme="http://www.xieyaxin.space/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="爬虫" scheme="http://www.xieyaxin.space/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo常用的命令</title>
+    <link href="http://www.xieyaxin.space/2018/07/21/Hexo/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4/"/>
+    <id>http://www.xieyaxin.space/2018/07/21/Hexo/Hexo常用的命令/</id>
+    <published>2018-07-20T22:56:15.579Z</published>
+    <updated>2018-07-31T16:07:07.098Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;该文章用于Hexo的常用命令记录，例如部署，测试等命令&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://www.xieyaxin.space/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://www.xieyaxin.space/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
