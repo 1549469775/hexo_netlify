@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 # RSS订阅
 # feed:
   # type: atom
@@ -94,6 +94,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: git@github.com:1549469775/hexo_netlify.git
-  branch: master
+  type: #git
+  #repository: git@github.com:1549469775/hexo_netlify.git
+  #branch: master
