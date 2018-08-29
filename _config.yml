@@ -73,22 +73,22 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: landscape
 # RSS订阅
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
+# feed:
+  # type: atom
+  # path: atom.xml
+  # limit: 20
+  # hub:
+  # content:
+  # content_limit: 140
+  # content_limit_delim: ' '
 # 搜索
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# search:
+  # path: search.xml
+  # field: post
+  # format: html
+  # limit: 10000
 
 
 # Deployment
